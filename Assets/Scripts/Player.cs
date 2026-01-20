@@ -4,63 +4,72 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviour
 {
-    [Header("Movimiento")]
-    [SerializeField] private float movementSpeed = 5f;
-    [SerializeField] private float gravityScale = -9.81f;
-
-    [Header("Cámara")]
-    [SerializeField] private Transform cameraTransform; // Arrastra aquí tu Main Camera
-    [SerializeField] private float sensitivity = 0.1f;
-    private float xRotation = 0f;
-
+    [Header("Configuración")]
+    [SerializeField] private float velocidad = 5f;
+    [SerializeField] private float gravedad = -9.81f;
+    [SerializeField] private float sensibilidad = 0.1f;
+    [SerializeField] private Camera camaraOjos;
+  
     private CharacterController controller;
-    private Vector2 movementInput;
-    private Vector2 mouseInput;
-    private Vector3 verticalMovement;
+    private Vector2 inputMovimiento; 
+    private Vector2 inputRaton; 
+    private Vector3 caida;
+    private float rotacionVertical = 0f;
 
-    private void Awake()
+    void Awake()
     {
         controller = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked; // Bloquea el ratón en el centro
+        if (camaraOjos == null) camaraOjos = Camera.main;
+        
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    
+    public void OnMove(InputValue value)
+    {
+        inputMovimiento = value.Get<Vector2>();
     }
 
-    // Recibe movimiento (WASD)
-    public void OnMove(InputValue value) => movementInput = value.Get<Vector2>();
-
-    // Recibe movimiento del ratón (Look)
-    public void OnLook(InputValue value) => mouseInput = value.Get<Vector2>();
+    // Debes tener una acción "Look" en tu Input Action Asset
+    public void OnLook(InputValue value)
+    {
+        inputRaton = value.Get<Vector2>();
+    }
 
     void Update()
     {
-        ManejarRotacion();
+        RotarCamara(); // Primero rotamos para saber hacia dónde mirar
         ManejarMovimiento();
+        AplicarGravedad();
     }
 
-    private void ManejarRotacion()
+    private void RotarCamara()
     {
-        // 1. Girar el cuerpo a los lados (Eje Y)
-        transform.Rotate(Vector3.up * mouseInput.x * sensitivity);
+        // 1. Girar el cuerpo a los lados (Eje Y) con el movimiento X del ratón
+        transform.Rotate(Vector3.up * inputRaton.x * sensibilidad);
 
-        // 2. Girar la cámara arriba y abajo (Eje X)
-        xRotation -= mouseInput.y * sensitivity;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f); // Evita que la cámara dé la vuelta completa
-
-        if (cameraTransform != null)
-            cameraTransform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        // 2. Girar la cámara arriba/abajo (Eje X) con el movimiento Y del ratón
+        rotacionVertical -= inputRaton.y * sensibilidad;
+        rotacionVertical = Mathf.Clamp(rotacionVertical, -90f, 90f); // Límite para no desnucarse
+        
+        camaraOjos.transform.localRotation = Quaternion.Euler(rotacionVertical, 0, 0);
     }
 
     private void ManejarMovimiento()
     {
-        // Movimiento Horizontal
-        Vector3 move = transform.right * movementInput.x + transform.forward * movementInput.y;
-        controller.Move(move * movementSpeed * Time.deltaTime);
-
-        // Gravedad
-        if (controller.isGrounded && verticalMovement.y < 0)
-            verticalMovement.y = -1f;
-        else
-            verticalMovement.y += gravityScale * Time.deltaTime;
-
-        controller.Move(verticalMovement * Time.deltaTime);
+        // Convertimos el input en dirección relativa al personaje
+        // transform.forward es "hacia adelante" según la rotación del cuerpo
+        Vector3 movimiento = transform.right * inputMovimiento.x + transform.forward * inputMovimiento.y;
+        
+        controller.Move(movimiento * velocidad * Time.deltaTime);
+    }
+    
+    private void AplicarGravedad()
+    {
+        if (controller.isGrounded && caida.y < 0)
+        {
+            caida.y = -2f;
+        }
+        caida.y += gravedad * Time.deltaTime;
+        controller.Move(caida * Time.deltaTime);
     }
 }

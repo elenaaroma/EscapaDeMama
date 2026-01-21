@@ -7,9 +7,13 @@
     <list default="true" id="77a6068b-d2b1-4ae7-99ca-1afb673e4dd6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EscapaDeMama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EscapaDeMama/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/BehaviorGraph/Mama.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorGraph/Mama.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BehaviorGraph/Raton.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorGraph/Raton.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/BehaviorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/BehaviorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Escenario 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/NavMesh-Escenario 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/DialogueAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/DialogueAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/IsCloseAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/IsCloseAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/RespawnAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/RespawnAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/DialogueAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/IsCloseAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/RespawnAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/SiguientePuntoGuiaAction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -98,6 +108,8 @@
       <workItem from="1768951436949" duration="1701000" />
       <workItem from="1768959287914" duration="127000" />
       <workItem from="1768959437536" duration="10000" />
+      <workItem from="1768961579906" duration="5056000" />
+      <workItem from="1768994942733" duration="6127000" />
     </task>
     <servers />
   </component>

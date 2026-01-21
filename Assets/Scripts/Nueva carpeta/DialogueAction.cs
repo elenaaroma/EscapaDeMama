@@ -18,8 +18,7 @@ public partial class DialogueAction : Action
 
     protected override Status OnStart()
     {
-        if (Talk.Value == null || Player.Value == null) return Status.Failure;
-
+     
         Talk.Value.SetActive(true);
         _textUI = Talk.Value.GetComponentInChildren<TextMeshProUGUI>();
         
@@ -31,13 +30,12 @@ public partial class DialogueAction : Action
     protected override Status OnUpdate()
     {
         _timer += Time.deltaTime;
-
-        // CORRECCIÓN AQUÍ: Usamos GameObject.transform para obtener la posición del NPC
+        
         Vector3 npcPosition = GameObject.transform.position;
         Vector3 playerPosition = Player.Value.transform.position;
 
         Vector3 direction = npcPosition - playerPosition;
-        direction.y = 0; // Evitamos que el jugador rote hacia arriba/abajo
+        direction.y = 0; 
 
         if (direction != Vector3.zero)
         {
@@ -45,7 +43,7 @@ public partial class DialogueAction : Action
             Player.Value.transform.rotation = Quaternion.Slerp(Player.Value.transform.rotation, targetRotation, Time.deltaTime * 5f);
         }
 
-        // Lógica de frases
+        
         if (_step == 0)
         {
             if (_textUI != null) _textUI.text = "Hola, te veo perdido.";
@@ -66,6 +64,9 @@ public partial class DialogueAction : Action
 
     protected override void OnEnd()
     {
-        if (Talk.Value != null) Talk.Value.SetActive(false);
+        if (Talk.Value != null)
+        {
+            Talk.Value.SetActive(false);
+        }
     }
 }

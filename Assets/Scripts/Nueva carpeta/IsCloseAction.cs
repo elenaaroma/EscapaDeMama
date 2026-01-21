@@ -19,16 +19,14 @@ public partial class IsCloseAction : Action
 
     protected override Status OnUpdate()
     {
-        // Calculamos la distancia actual entre el enemigo y el objetivo
+       
         float currentDistance = Vector3.Distance(Self.Value.transform.position, Target.Value.transform.position);
-
-        // Si la distancia es menor o igual al valor de 'Close', hemos "pillado" al objetivo
+        
         if (currentDistance <= Close.Value)
         {
             return Status.Success;
         }
-
-        // Mientras no estemos cerca, el nodo sigue buscando
+        
         return Status.Running;
     }
 

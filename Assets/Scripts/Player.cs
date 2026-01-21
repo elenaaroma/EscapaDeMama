@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,12 +10,23 @@ public class Player : MonoBehaviour
     [SerializeField] private float gravedad = -9.81f;
     [SerializeField] private float sensibilidad = 0.1f;
     [SerializeField] private Camera camaraOjos;
+    [SerializeField] private GameObject RespawnPoint;
   
     private CharacterController controller;
     private Vector2 inputMovimiento; 
     private Vector2 inputRaton; 
     private Vector3 caida;
     private float rotacionVertical = 0f;
+
+    private void OnEnable()
+    {
+        RespawnAction.OnRespawn += Respawn;
+    }
+    
+    private void OnDisable()
+    {
+        RespawnAction.OnRespawn -= Respawn;
+    }
 
     void Awake()
     {
@@ -28,8 +40,7 @@ public class Player : MonoBehaviour
     {
         inputMovimiento = value.Get<Vector2>();
     }
-
-    // Debes tener una acción "Look" en tu Input Action Asset
+    
     public void OnLook(InputValue value)
     {
         inputRaton = value.Get<Vector2>();
@@ -37,27 +48,24 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        RotarCamara(); // Primero rotamos para saber hacia dónde mirar
+        RotarCamara(); 
         ManejarMovimiento();
         AplicarGravedad();
     }
 
     private void RotarCamara()
     {
-        // 1. Girar el cuerpo a los lados (Eje Y) con el movimiento X del ratón
         transform.Rotate(Vector3.up * inputRaton.x * sensibilidad);
-
-        // 2. Girar la cámara arriba/abajo (Eje X) con el movimiento Y del ratón
+        
         rotacionVertical -= inputRaton.y * sensibilidad;
-        rotacionVertical = Mathf.Clamp(rotacionVertical, -90f, 90f); // Límite para no desnucarse
+        rotacionVertical = Mathf.Clamp(rotacionVertical, -90f, 90f); 
         
         camaraOjos.transform.localRotation = Quaternion.Euler(rotacionVertical, 0, 0);
     }
 
     private void ManejarMovimiento()
     {
-        // Convertimos el input en dirección relativa al personaje
-        // transform.forward es "hacia adelante" según la rotación del cuerpo
+        
         Vector3 movimiento = transform.right * inputMovimiento.x + transform.forward * inputMovimiento.y;
         
         controller.Move(movimiento * velocidad * Time.deltaTime);
@@ -71,5 +79,17 @@ public class Player : MonoBehaviour
         }
         caida.y += gravedad * Time.deltaTime;
         controller.Move(caida * Time.deltaTime);
+    }
+
+    private void Respawn()
+    {
+        controller.enabled = false;
+        
+        transform.position = RespawnPoint.transform.position;
+        transform.rotation = RespawnPoint.transform.rotation;
+        
+        controller.enabled = true;
+        
+        Debug.Log("Respawn");
     }
 }

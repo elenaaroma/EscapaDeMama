@@ -6,30 +6,182 @@
   <component name="ChangeListManager">
     <list default="true" id="77a6068b-d2b1-4ae7-99ca-1afb673e4dd6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EscapaDeMama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EscapaDeMama/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BehaviorGraph/Mama.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorGraph/Mama.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animaciones/MamaBuscando.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animaciones/MamaBuscando.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animator/Mama.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animator/Mama.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/BehaviorGraph/Raton.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorGraph/Raton.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_100_1_Pixel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_100_1_Pixel.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_16_2_Sand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_16_2_Sand.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_18_2_Metals.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_18_2_Metals.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_19_4_Dirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_19_4_Dirt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_23_1_Rocks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_23_1_Rocks.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_27_4_Lava.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_27_4_Lava.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_30_3_Roofs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_30_3_Roofs.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_34_2_Tiles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_34_2_Tiles.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_36_5_Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_36_5_Water.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_42_1_Vegetation.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_42_1_Vegetation.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_46_2_Tiles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_46_2_Tiles.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_49_5_Rocks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_49_5_Rocks.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_58_1_Surface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_58_1_Surface.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_67_3_Tile.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_67_3_Tile.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_79_5_Sci-fi.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_79_5_Sci-fi.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_7_1_Tiles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_7_1_Tiles.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_81_3_Sci-fi.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_81_3_Sci-fi.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_2_3_Wood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_46_2_Tiles_Base_Color 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_46_2_Tiles_Base_Color 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_46_2_Tiles_Base_Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_46_2_Tiles_Base_Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/laberinto.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Materials/laberinto.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Ambient_Occlusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Ambient_Occlusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/fuera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/fuera.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/laberinto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/laberinto.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Ambient_Occlusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Ambient_Occlusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Roughness.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/antique_light.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/antique_light.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_6.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_6.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_7.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_7.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_8.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_8.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_9.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/book_9.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/ceiling_big.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/ceiling_big.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/ceiling_rectangle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/ceiling_rectangle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/ceiling_small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/ceiling_small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/curtain_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/curtain_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/curtain_2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/curtain_2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/floor_big.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/floor_big.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/floor_rectangle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/floor_rectangle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/floor_small.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Prefabs/floor_small.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/antique_light.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/antique_light.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_3.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_3.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_6.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_6.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_7.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_7.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_8.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_8.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_9.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_9.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/curtain_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/curtain_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/curtain_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/curtain_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_big.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_big.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_rectangle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_rectangle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_small.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_small.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner_double.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner_double.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_big_door.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_big_door.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_one_window.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_one_window.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_small_door.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_small_door.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_two_window.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_two_window.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mama.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mama.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/M_Cabinet1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/M_Cabinet1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/M_Cabinet2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/M_Cabinet2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/M_Cabinet3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/M_Cabinet3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/M_Cabinet4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/M_Cabinet4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet1_basecolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet1_basecolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet1_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet1_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet1_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet1_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet2_basecolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet2_basecolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet2_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet2_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet2_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet2_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet3_basecolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet3_basecolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet3_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet3_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet3_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet3_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet4_basecolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet4_basecolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet4_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet4_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet4_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Materials/T_Cabinet4_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Mesh/Cabinet.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Mesh/Cabinet.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Prefabs/Cabinet1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Prefabs/Cabinet1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Prefabs/Cabinet2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Prefabs/Cabinet2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Prefabs/Cabinet3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Prefabs/Cabinet3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Prefabs/Cabinet4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Prefabs/Cabinet4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Showcase.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceZeta_RusticSmallCabinet/Showcase.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +192,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CargarJuego.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/DialogueAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/IsCloseAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Nueva carpeta/RespawnAction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -129,6 +282,7 @@
       <workItem from="1768994942733" duration="6127000" />
       <workItem from="1769025959761" duration="530000" />
       <workItem from="1769099708463" duration="39000" />
+      <workItem from="1769262273306" duration="14075000" />
     </task>
     <servers />
   </component>

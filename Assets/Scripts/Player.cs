@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviour
@@ -11,12 +12,15 @@ public class Player : MonoBehaviour
     [SerializeField] private float sensibilidad = 0.1f;
     [SerializeField] private Camera camaraOjos;
     [SerializeField] private GameObject RespawnPoint;
+    [SerializeField] private GameObject canvasVictoria;
   
     private CharacterController controller;
     private Vector2 inputMovimiento; 
     private Vector2 inputRaton; 
     private Vector3 caida;
     private float rotacionVertical = 0f;
+    
+    
 
     private void OnEnable()
     {
@@ -91,5 +95,13 @@ public class Player : MonoBehaviour
         controller.enabled = true;
         
         Debug.Log("Respawn");
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Puerta")
+        {
+            SceneManager.LoadScene("Victoria");
+        }
     }
 }

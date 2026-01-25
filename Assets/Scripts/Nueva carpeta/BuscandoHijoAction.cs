@@ -19,39 +19,35 @@ public partial class BuscandoHijoAction : Action
     private int whatIsObstacleLayer;
     
     private Collider[] results = new Collider[1];
-
+    
     protected override Status OnStart()
     {
+        whatIsTargetLayer = 1 << LayerMask.NameToLayer(WhatIsTarget.Value.Trim());
+        whatIsObstacleLayer = 1 << LayerMask.NameToLayer(WhatIsObstacle.Value.Trim());
         
-        whatIsTargetLayer = 1 << LayerMask.NameToLayer(WhatIsTarget.Value);
-        whatIsObstacleLayer = 1 << LayerMask.NameToLayer(WhatIsObstacle.Value);
-            
         return Status.Running;
     }
 
     protected override Status OnUpdate()
     {
-        
-                
-        if(Physics.OverlapSphereNonAlloc(Self.Value.transform.position, Radius, results , whatIsTargetLayer) <=0) return Status.Running;
-        
-        //destino menos origen
-        Vector3 diretionToTarget = results[0].transform.position -  Self.Value.transform.position;
-        
-        // Angulo, si esta fuera del angulo sigue detectando
-        if(Vector3.Angle(Self.Value.transform.forward, diretionToTarget) > Angle) return Status.Running;
-        //forward es mi frontal 
-        //
-        if(Physics.Raycast(Self.Value.transform.position, diretionToTarget, diretionToTarget.magnitude, whatIsObstacleLayer
-           
-           )) return Status.Running;
+        if (Physics.OverlapSphereNonAlloc(Self.Value.transform.position, Radius, results, whatIsTargetLayer) <= 0) 
+            return Status.Running;
 
-        
-        //modificamos el valor de Target, Target es el gameoject introducido en el array 
+        // 1. Definimos una posición de "ojos" (subimos 1.5 metros, por ejemplo)
+        Vector3 eyePosition = Self.Value.transform.position + Vector3.up * 1.5f;
+    
+        // 2. La dirección ahora se calcula desde la nueva posición de ojos hacia el centro del objetivo
+        Vector3 directionToTarget = results[0].bounds.center - eyePosition;
+
+        if (Vector3.Angle(Self.Value.transform.forward, directionToTarget) > Angle) 
+            return Status.Running;
+
+        // 3. El Raycast sale desde eyePosition
+        if (Physics.Raycast(eyePosition, directionToTarget, directionToTarget.magnitude, whatIsObstacleLayer)) 
+            return Status.Running;
+
         Target.Value = results[0].gameObject;
-       
         return Status.Success;
-        
     }
     
 }

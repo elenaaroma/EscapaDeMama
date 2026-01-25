@@ -12,24 +12,24 @@ public partial class DialogueAction : Action
     [SerializeReference] public BlackboardVariable<GameObject> Talk;
     [SerializeReference] public BlackboardVariable<GameObject> Player;
 
-    private TextMeshProUGUI _textUI;
-    private float _timer;
-    private int _step;
+    private TextMeshProUGUI textUI;
+    private float timer;
+    private int step;
 
     protected override Status OnStart()
     {
      
         Talk.Value.SetActive(true);
-        _textUI = Talk.Value.GetComponentInChildren<TextMeshProUGUI>();
+        textUI = Talk.Value.GetComponentInChildren<TextMeshProUGUI>();
         
-        _step = 0;
-        _timer = 0;
+        step = 0;
+        timer = 0;
         return Status.Running;
     }
 
     protected override Status OnUpdate()
     {
-        _timer += Time.deltaTime;
+        timer += Time.deltaTime;
         
         Vector3 npcPosition = GameObject.transform.position;
         Vector3 playerPosition = Player.Value.transform.position;
@@ -44,22 +44,22 @@ public partial class DialogueAction : Action
         }
 
         
-        if (_step == 0)
+        if (step == 0)
         {
-            if (_textUI != null) _textUI.text = "Hola, te veo perdido.";
+            if (textUI != null) textUI.text = "Hola, te veo perdido";
         }
         else
         {
-            if (_textUI != null) _textUI.text = "Sígueme, te enseño la salida.";
+            if (textUI != null) textUI.text = "Sígueme, te enseño la salida";
         }
 
-        if (_timer > 3.0f)
+        if (timer > 3.0f)
         {
-            _timer = 0;
-            _step++;
+            timer = 0;
+            step++;
         }
 
-        return _step > 1 ? Status.Success : Status.Running;
+        return step > 1 ? Status.Success : Status.Running;
     }
 
     protected override void OnEnd()

@@ -32,17 +32,14 @@ public partial class BuscandoHijoAction : Action
     {
         if (Physics.OverlapSphereNonAlloc(Self.Value.transform.position, Radius, results, whatIsTargetLayer) <= 0) 
             return Status.Running;
-
-        // 1. Definimos una posición de "ojos" (subimos 1.5 metros, por ejemplo)
+        
         Vector3 eyePosition = Self.Value.transform.position + Vector3.up * 1.5f;
-    
-        // 2. La dirección ahora se calcula desde la nueva posición de ojos hacia el centro del objetivo
+        
         Vector3 directionToTarget = results[0].bounds.center - eyePosition;
 
         if (Vector3.Angle(Self.Value.transform.forward, directionToTarget) > Angle) 
             return Status.Running;
-
-        // 3. El Raycast sale desde eyePosition
+        
         if (Physics.Raycast(eyePosition, directionToTarget, directionToTarget.magnitude, whatIsObstacleLayer)) 
             return Status.Running;
 

@@ -15,10 +15,6 @@ public partial class SiguientePuntoGuiaAction : Action
     
     protected override Status OnStart()
     {
-        if (Lista.Value == null || Lista.Value.Count == 0)
-        {
-            return Status.Failure;
-        }
         
         if (Posicion.Value >= Lista.Value.Count)
         {
